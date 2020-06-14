@@ -1,0 +1,7 @@
+{
+  "name": "Avaliação de Médicos",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Médicos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+    <ion-item *ngFor="let doctor of doctors">
+        <ion-avatar slot="start">
+          <img src="../../../assets/img/pikapika.jpg">
+        </ion-avatar>
+        <ion-label>
+          <h2>{{doctor.name}}</h2>
+          <h3>{{doctor.age}}</h3>
+          <p>{{doctor.jobplace}}</p>
+        </ion-label>
+      </ion-item>
+</ion-content>
